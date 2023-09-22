@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Testing</title>
+    <link rel="stylesheet" href="testing.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <h1>Latihan Table dan layout</h1>
+    <hr />
+    <br />
+    <nav>
+      <div class="link">
+        <a href="">Beranda</a>
+        <a href="">Keranjang</a>
+        <a href="">Riwayat</a>
+        <a href="">keluar</a>
+      </div>
+    </nav>
+    <br>
+    <form action="">
+      <table>
+        <tr>
+          <th colspan="3">Form pemesanan</th>
+        </tr>
+        <tr>
+          <td rowspan="11"><img src="laptop.jpg" alt="gambar laptop" /></td>
+        </tr>
+        <tr>
+          <td class="nama">
+            <label for="name">Nama Barang :</label>
+          </td>
+          <td>
+            <input type="text" name="name" id="name" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="desc">Deskripsi :</label>
+          </td>
+          <td>
+            <textarea name="desc" id="desc" cols="20" rows="5"></textarea>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="acc">Akun Member :</label>
+          </td>
+          <td>
+            <input type="text" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="bank">Bank :</label>
+          </td>
+          <td>
+            <select name="bank" id="bank" value="Bank">
+              <option value="" selected disabled>Bank</option>
+              <option value="">Mandiri</option>
+              <option value="">BCA</option>
+              <option value="">BNI</option>
+              <option value="">BRI</option>
+              <option value="">HSBC</option>
+              <option value="">SeaBank</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="bank_acc">Akun Bank :</label>
+          </td>
+          <td>
+            <input type="text" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="tsc">Transaksi :</label>
+          </td>
+          <td>
+            <input type="number" min="1" max="10" />
+          </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>
+            <input type="checkbox" name="email" id="" />
+            <label for=""><b>*</b>Kirim dengan Email</label>
+          </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>
+            <input type="checkbox" name="phone" id="" />
+            <label for=""><b>*</b>Kirim dengan No Telp</label>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="numb">Phone Number :</label>
+          </td>
+          <td>
+            <input type="text" name="numb" id="" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="email">Email :</label>
+          </td>
+          <td>
+            <input type="email" name="" id="" />
+          </td>
+        </tr>
+        <tr>
+          <td class="kirim" align="center" colspan="3">
+            <button type="submit">Kirim</button>
+          </td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>

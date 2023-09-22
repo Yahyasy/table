@@ -1,0 +1,55 @@
+body{
+    font-family: "Roboto", sans-serif;
+}
+
+h1{
+text-align: center;
+}
+table {
+    margin: auto;
+    border-collapse: collapse;
+    border: 1px solid black;
+    padding: auto;
+}
+td{
+    padding-right: 15px;
+}
+th {
+    border: 1px solid #ccc;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+button{
+    width: 150px;
+}
+a{
+    text-decoration: none;
+}
+b{
+    color: red;
+}
+.nama{
+    padding-top: 10px;
+}
+.kirim{
+    border-top: 1px solid #ccc;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    width: 50%;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.link{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
